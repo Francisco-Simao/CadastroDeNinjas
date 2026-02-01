@@ -14,11 +14,17 @@ public class NinjaModel {
     private String Email;
     private int idade;
 
+    public NinjaModel() {
+
+    }
+
     public NinjaModel(String nome, String email, int idade) {
         Nome = nome;
         Email = email;
         this.idade = idade;
     }
+
+
 
     public String getNome() {
         return Nome;
